@@ -1,0 +1,48 @@
+<% layout('layouts/boilerplate')%>
+
+<div class="container pt-2">
+	<div class="jumbotron text-white mb-5">
+		<h1 class="display-7 text-center">CONTACT ME</h1>
+
+		<hr class="my-1" />
+
+		<div class="d-flex">
+			<div class="container msg-portal w-50 p-5">
+				<form action="">
+					<input
+						class="form-control"
+						type="text"
+						id="username"
+						placeholder="username"
+						required
+						autofocus
+					/>
+
+					<input
+						class="form-control"
+						type="email"
+						id="email"
+						placeholder="email"
+						required
+					/>
+
+					<input
+						class="form-control"
+						type="text"
+						id="msg"
+						placeholder="message"
+						required
+					/>
+
+					<button class="m-5">SEND</button>
+				</form>
+			</div>
+
+			<div class="container contact-list w-50 p-5">
+        <span class="d-block p-2 bg-primary text-white">Location</span>
+        <span class="d-block p-2 bg-primary text-white">Number</span>
+        <span class="d-block p-2 bg-primary text-white">Email</span>
+      </div>
+		</div>
+	</div>
+</div>

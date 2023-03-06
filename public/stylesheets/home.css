@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+.leads{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: azure;
+}
+
+.leads-content{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    display: flexbox;
+}
+
+
+.follows{
+    min-height: 50vh;
+    background-size: cover;
+    background-color: #333;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+p{
+    font-size: 12px;
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+    display: flex;
+}
+
+.navibar{
+    color: azure;
+    padding-right: 20px;
+    display: flex;
+}
+
+.dropdown{
+    color: azure;
+    padding-right: 20px;
+    opacity: 0.45;
+    z-index: 1;
+}
+.dropdown-menu{
+    opacity: 1;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255,0.5);
+    border-bottom-color:rgba(255,255,255,0.5);
+}
+
+.nav-link.active {
+    color: white;
+    border-bottom-color:white;
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: #333;
+    text-shadow: none;
+}
+
+@media only screen and (max-width: 780px) {
+    .navibar{
+        display: none;
+    }
+    .nav-cover{
+        display: flex; 
+    }
+    .dropdown{
+        margin-left: auto; 
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .dropdown{
+        display: none;
+    }
+}
