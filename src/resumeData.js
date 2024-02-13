@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://evixedor.github.io/",
     "name":"Evi Edor",
-    "role":"Mechanical Engineer and Computer Prgrammer",
+    "role":"Mechanical Engineer / Computer Prgrammer",
     "linkedinId":" https://www.linkedin.com/in/evixedor/",
     "skypeid":"Your skypeid",
     "roleDescription":" I like to dabble in various parts of frontend and backend development as well as data analysis with deep and shallow machine learning. I also like to learn about new technologies, study technical articles or simply play games or soccer in my free time.",
@@ -93,7 +93,7 @@ let resumeData = {
         "skillname":"NodeJs"
       },
       {
-        "skillname":"HTML5, CSS, JavaScript"
+        "skillname":"HTML5, CSS, JavaScript, Typescript"
       },
       {
         "skillname":"REST-API"
