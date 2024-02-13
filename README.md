@@ -1,2 +1,1 @@
-# eportfolio
-Personal Portfolio Website
+A simple SPA created to render my PORTFOLIO.
