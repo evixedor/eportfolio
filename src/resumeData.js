@@ -148,9 +148,20 @@ let resumeData = {
 	],
 	certifications: [
 		{
-			CertificateName: "Bachelor of Engineering",
-			description: "Mechanical Engineering",
+			CertificateName: "Bachelor of Engineering: Mechanical Engineering",
+			description: "University Certificate",
 			cerlink: " ",
+		},
+		{
+			CertificateName:
+				"Programming for Everybody (Getting started with Python)",
+			description: "Coursera Certificate",
+			cerlink: "https://coursera.org/share/6a0f7f09aace2ffc9dec0cb648f9c97d",
+		},
+		{
+			CertificateName: "Complete Python Developer in 2021: Zero to Mastery",
+			description: "Udemy Certificate",
+			cerlink: "http://ude.my/UC-46224519-c2a4-48f6-8e73-5b9904a3b64f",
 		},
 		{
 			CertificateName: "Complete React Developer (with Redux, Hooks, GraphQL)",
@@ -164,15 +175,22 @@ let resumeData = {
 				"https://www.linkedin.com/learning/certificates/cc168720927d314036ef1c224e5931ed4a869725be2cd0310a84f4a49c162cbe",
 		},
 		{
-			CertificateName: "Complete Python Developer in 2021: Zero to Mastery",
+			CertificateName: "Beginning C++ Programming",
 			description: "Udemy Certificate",
-			cerlink: "http://ude.my/UC-46224519-c2a4-48f6-8e73-5b9904a3b64f",
+			cerlink:
+				"https://www.ude.my/UC-ba90d5ce-073f-4c75-8adc-a8e669f9b30d/",
 		},
 		{
 			CertificateName:
-				"Programming for Everybody (Getting started with Python)",
-			description: "Coursera Certificate",
-			cerlink: "https://coursera.org/share/6a0f7f09aace2ffc9dec0cb648f9c97d",
+				"Mastercam CAD CAM and CNC Milling Programming",
+			description: "Udemy Certificate",
+			cerlink: "https://www.ude.my/UC-1f5094f6-d558-4cd2-90bd-da8daaea28d8/",
+		},
+		{
+			CertificateName:
+				"Solidworks: Become a Certified Professional (CSWP)",
+			description: "Udemy Certificate",
+			cerlink: "https://www.ude.my/UC-69bf5b06-c807-4dca-bdcf-d8af47aec6cd/",
 		},
 	],
 };
