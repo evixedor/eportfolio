@@ -1,11 +1,11 @@
 let resumeData = {
 	imagebaseurl: "https://evixedor.github.io/",
 	name: "Evi Edor",
-	role: "Mechanical Engineer / Computer Programmer",
+	role: "Mechanical Engineer / Full Stack Developer / Project Manager",
 	linkedinId: " https://www.linkedin.com/in/evixedor/",
 	skypeid: "Your skypeid",
 	roleDescription:
-		" Dedicated, dynamic and innovative professional with a diversity of experience that would be advantageous to driving success in any project. Seeking a challenging and career-advancing position in Mechanical Engineering Design, Computer Programming and open source team collaboration as a Contributor. ",
+		" Dedicated, dynamic, innovative and highly adaptable professional with a strong background in Mechanical Engineering, Full Stack Development, Project Management, problem-solving, team collaboration and a diversity of experience that would be advantageous to driving success in any project. Experienced in handling complex tasks with attention to detail and time management. Advanced engineering design skills and technical proficiency. Proven ability to excel in diverse environments. Ready to leverage expertise in analytical thinking and communication skills. Seeking a challenging and career-advancing position in Project Management,  Mechanical Engineering Design, or Full Stack Development. ",
 	socialLinks: [
 		{
 			name: "linkedin",
@@ -24,66 +24,101 @@ let resumeData = {
 		},
 	],
 	aboutme:
-	 " I was a production associate at Spartan Peripheral Devices, a leading manufacturer of valves and control solutions for the markets of commercial, industrial and large-scale residential plumbing. I have a Bachelor's Degree in Mechanical Engineering from Laurentian University and a passion for computer programming and web development. I have acquired multiple certifications in Python, React, and Node.js from online courses and platforms. In my previous roles, I worked with a team of production associates and supervisors to design, test, and optimize the production processes and systems for various products and projects. I used my skills in Node.js, Python, and React to create and maintain web applications and interfaces to train myself to support development operations and data analysis. I also contributed to the quality assurance and troubleshooting of software and hardware components. I enjoy learning new technologies and tools that can enhance the efficiency and performance of any team. I am motivated by the opportunity to apply my mechanical engineering and computer programming skills to create innovative and sustainable solutions for the engineering design and technology industry. I value collaboration, creativity, and continuous improvement, and I seek to bring diverse perspectives and experiences to any team.",
-	address: " Montreal, Canada",
+		" I was an Assistant Project Manager / Production associate at Spartan Peripheral Devices, a leading manufacturer of valves and control solutions for the markets of commercial, industrial and large-scale residential plumbing. I acquired my Bachelor's Degree in Mechanical Engineering from Laurentian University and I have acquired certifications in Python, React, Node.js, Web Development as well as Solidworks, MasterCAM and Learning Data Analytics from premium online courses. In my previous roles, I worked with a team of production associates and assisted my projects manager to design, test, and optimize the production processes and systems for various company products. I created and maintained web applications and interfaces to train myself to support development operations and data analysis. I also contributed to the quality assurance and troubleshooting of software and hardware components. I enjoy learning new technologies and tools that can enhance the efficiency and performance of any team. I am motivated by the opportunity to apply my mechanical engineering, full stack developer and project management skills to create innovative and sustainable solutions for the engineering design and technology industry. I value collaboration, creativity, and continuous improvement, and I seek to bring diverse perspectives and experiences to any team.",
+	address: "Toronto, ON",
 	email: " evixedor@gmail.com",
 	education: [
 		{
-			UniversityName: "Zero To Mastery - Udemy",
-			specialization: "Full Stack Computer Programmer",
-			MonthOfGraduation: "Oct 2019",
-			YearOfGraduation: "Present",
-			Achievements:
-				"Python, ReactJs, NodeJs, ExpressJs, REST APIs, HTML-CSS-JS, DBs (MongoDB, MySQL)",
-		},
-		{
 			UniversityName: "Laurentian University",
 			specialization: "Mechanical Engineering",
-			MonthOfGraduation: "Sep 2014",
+			MonthOfGraduation: "GRADUATED ",
 			YearOfGraduation: "May 2017",
-			Achievements: "Bachelor of Engineering",
+			Achievements: ["Bachelor of Engineering",]
 		},
 		{
-			UniversityName: "University of Ottawa",
-			specialization: "Mechanical Engineering",
-			MonthOfGraduation: "Jan 2012",
-			YearOfGraduation: "May 2014",
-			Achievements: " ",
+			UniversityName:
+				"Udemy, Coursera, Linkedin Learning - Online Continuing Education",
+			specialization: "Full Stack Developer",
+			MonthOfGraduation: "Oct 2019",
+			YearOfGraduation: "Present",
+			Achievements: [
+				" Python",
+				" ReactJs",
+				" NodeJs", 
+				" ExpressJs",
+				" REST APIs",
+				" HTML-CSS-JS",
+				" DBs (MongoDB, MySQL)",
+
+			]
 		},
 	],
 	work: [
 		{
+			CompanyName: "Learn Hall - Remote, CA",
+			specialization: "Full Stack Developer - Team Lead",
+			MonthOfLeaving: "June 2024",
+			YearOfLeaving: "Present",
+			Achievements: [
+				" Understands the project requirements and ensures that team members perform the right functions to meet them. ",
+				" Tracks all activities related to the project, including tasks, timelines, and team member roles.",
+				" Took responsibility for multiple projects at one time. ",
+				" Resolves issues that may arise due to miscommunication or other impediments.",
+				" Communicates regularly with information, updates, and challenges.",
+				" Guides team members by sharing good habits and practices to ensure high-quality output.",
+				" Understands the technical requirements for each project as well as the technical tools needed to fulfill them. ",
+				" Evaluates deliverables and provides suggestions for improvement. ",
+				" Creates a documentation process, risk log, and any other reporting needed. ",
+
+			]
+		},
+		{
 			CompanyName: "Spartan PD - Vaudreil-Dorion, QC",
-			specialization: "Production Engineer",
-			MonthOfLeaving: "Mar 2023",
-			YearOfLeaving: "Dec 2023",
-			Achievements:
-				"Assembly of small motor, actuators and valves. Testing of finished products and resolve problems encountered during testing. Ordering of production materials. Verify inventory on a weekly base. Production space maintenance and improvements. Assembly of finished products to sales orders and shipping. Follow Assembly and Testing procedures. Quality Assurance testing. Update Assembly and Testing Procedures. Perform turning, cutting, boring, grinding, milling, and drilling machining processes on production materials to satisfy work orders. New project Research, Design and Development.",
+			specialization: "Assitant Project Manager / Production Engineer",
+			MonthOfLeaving: "March 2023",
+			YearOfLeaving: "May 2024",
+			Achievements: [
+				" Assembly of small motor, actuators and valves.",
+				" Testing of finished products and resolve problems encountered during testing.",
+				" Ordering of production materials. Verify inventory on a weekly base. ",
+				" Production space maintenance and improvements. ",
+				" Assembly of finished products to sales orders and shipping. ",
+				" Follow Assembly and Testing procedures. ",
+				" Quality Assurance testing. Update Assembly and Testing Procedures. ",
+				" Perform turning, cutting, boring, grinding, milling, and drilling machining processes on production materials to satisfy work orders.",
+				" New project Research, Design and Development.",
+
+			]
 		},
 		{
 			CompanyName: "Vinylbilt Windows & Doors Corporation - Concord, ON",
 			specialization: "CAD Technician",
-			MonthOfLeaving: "Jul 2020",
-			YearOfLeaving: "Feb 2021",
-			Achievements:
-				"Produces AutoCAD / Solidwork drawings of bay, bow and special order windows as well as window grills while incorporating company techniques and standards. Review drawings for accuracy & conformance to project requirements, manufacturability, and established company practices and procedures. ",
+			MonthOfLeaving: "June 2017",
+			YearOfLeaving: "December 2019",
+			Achievements: [
+				" Produces AutoCAD / Solidwork drawings of bay, bow and special order windows as well as window grills while incorporating company techniques and standards. ",
+				" Review drawings for accuracy & conformance to project requirements, manufacturability, and established company practices and procedures. ",
+				" Monthly review of product designs ",
+				" Defining and implementing CAPA measures to qualify production processes, testing concepts and inspection plans in SAP  ",
+				" Implementation of Analytical skills while developing 2D/3D models to yield clear, complete and accurate working documents/CAD drawings  ",
+			]
+
 		},
 		{
-			CompanyName: "Hilti Canada - Mississauga, ON",
-			specialization: "Production and Quality Technician",
-			MonthOfLeaving: "May 2018",
-			YearOfLeaving: "June 2020",
-			Achievements:
-				"Defining and implementing CAPA measures to qualify production processes, testing concepts and inspection plans in SAP. Providing support to field personnel via development of CAD drawings as directed by the Fire Protection Engineer (FPE). Implementation of Analytical skills while developing 2D/3D Models to yield clear, complete and accurate working documents/CAD drawings. ",
+			CompanyName: "Sears Canada - Sudbury, ON",
+			specialization: "Sales Representative",
+			MonthOfLeaving: "June 2015",
+			YearOfLeaving: "April 2017",
+			Achievements:[
+				"Maintaining  positive relationships with customers ",
+				"Creating sales presentation ",
+				"Generating leads and converting them to sales",
+				"Planning sales strategies",
+				"Meeting and exceeding company sales goals",
+				"Coordinating sales efforts with marketing programs",
+			]
 		},
-		{
-			CompanyName: "Quadrant Industries Inc - Vaughan, ON",
-			specialization: "CNC Operator",
-			MonthOfLeaving: "May 2017",
-			YearOfLeaving: "May 2018",
-			Achievements:
-				"Apply knowledge of CNC programming to configure CNC machines to perform drilling, grinding, milling etc. Understand specifications of the task at hand and the desired result by reading blueprints, mechanical drawings etc. Prepare and load raw materials and parts onto the machines. Prepare a test run to check if the machines produce outputs according to specifications.",
-		},
+		
 	],
 	skillsDescription: " ",
 	skills: [
@@ -177,18 +212,15 @@ let resumeData = {
 		{
 			CertificateName: "Beginning C++ Programming",
 			description: "Udemy Certificate",
-			cerlink:
-				"https://www.ude.my/UC-ba90d5ce-073f-4c75-8adc-a8e669f9b30d/",
+			cerlink: "https://www.ude.my/UC-ba90d5ce-073f-4c75-8adc-a8e669f9b30d/",
 		},
 		{
-			CertificateName:
-				"Mastercam CAD CAM and CNC Milling Programming",
+			CertificateName: "Mastercam CAD CAM and CNC Milling Programming",
 			description: "Udemy Certificate",
 			cerlink: "https://www.ude.my/UC-1f5094f6-d558-4cd2-90bd-da8daaea28d8/",
 		},
 		{
-			CertificateName:
-				"Solidworks: Become a Certified Professional (CSWP)",
+			CertificateName: "Solidworks: Become a Certified Professional (CSWP)",
 			description: "Udemy Certificate",
 			cerlink: "https://www.ude.my/UC-69bf5b06-c807-4dca-bdcf-d8af47aec6cd/",
 		},

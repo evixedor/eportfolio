@@ -25,7 +25,14 @@ export default class Resume extends Component {
 													{item.MonthOfGraduation} - {item.YearOfGraduation}
 												</em>
 											</p>
-											<p>{item.Achievements}</p>
+											<p>{item.Achievements && item.Achievements.map((iem) => {
+												return ( 
+													<div>
+														<li>{iem} </li>
+													</div>
+													)
+											})}
+											</p>
 										</div>
 									</div>
 								);
@@ -53,7 +60,14 @@ export default class Resume extends Component {
 													{item.MonthOfLeaving} - {item.YearOfLeaving}
 												</em>
 											</p>
-											<p>{item.Achievements}</p>
+											<p>{item.Achievements && item.Achievements.map((iem) => {
+												return ( 
+													<div>
+														<li>{iem} </li>
+													</div>
+													)
+											})}
+											</p>
 										</div>
 									</div>
 								);
